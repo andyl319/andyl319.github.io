@@ -1,0 +1,113 @@
+body{
+  background-color: black;
+  font-family: fantasy;
+}
+
+#reset{
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 26px;
+  border: solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#reset:hover{
+  color: #888888;
+  cursor: pointer;
+}
+
+#game-over{
+  display: flex;
+  position: absolute;
+  left: 35%;
+  top: 70%;
+  color: red;
+  font-size: 64px;
+}
+
+#died{
+  display: flex;
+  position: absolute;
+  left: 45%;
+  top: 70%;
+  color: red;
+  font-size: 64px;
+}
+
+#title{
+  display: flex;
+  position: absolute;
+  top: -2%;
+  left: 50%;
+  margin-left: -300px;
+}
+
+#github{
+  display: flex;
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  top: 30%;
+  left: 8%;
+}
+
+#linkedIn{
+  display: flex;
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  top: 30%;
+  left: 85%;
+}
+
+#github:hover, #linkedIn:hover{
+  cursor: pointer;
+}
+
+#instruction{
+  display: flex;
+  position: absolute;
+  color: white;
+  border: solid;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 10px;
+  top: 60%;
+  list-style: none;
+}
+
+
+#game{
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-top: -248.5px;
+  margin-left: -357px;
+  border: solid;
+  border-radius: 5px;
+  border-color: #20B2AA;
+  flex-direction: column;
+}
+
+canvas{
+  display: flex;
+  position: relative;
+
+}
+
+
+#score-board{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  color: white;
+  left: 87%;
+  top: 75%;
+}
+
+#score, #lives{
+  font-size: 26px;
+}

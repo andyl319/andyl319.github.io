@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet/frogger.scss">
+    <title>Frogger</title>
+  </head>
+  <body>
+    <img id="title" src="./images/title.png";>
+    <a href="https://github.com/andyl319">
+      <img id="github" src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png">
+    </a>
+    <a href="https://www.linkedin.com/in/andrew-lim-340803127/">
+      <img id="linkedIn" src="http://proxybiomedical.com/wp-content/uploads/2016/10/linkedin-logo-1.png">
+    </a>
+    <ul id="instruction">
+      <li>RULES:</li>
+      <br>
+      <br>
+      <li id="rule">Get the frogger to the other side</li>
+      <li id="rule"><u>PAST</u> the checkered finish line</li>
+      <br>
+      <li id="rule">Don't get hit by a car</li>
+      <br>
+      <li id="rule">Cars increase speed every score</li>
+      <br>
+      <li id="rule">Lives increase every 5 scores</li>
+      <br>
+    </ul>
+    <div id="score-board">
+      <span id="score">Score: 0</span>
+      <br>
+      <span id="lives">Lives: 3</span>
+      <br>
+      <br>
+      <span id="reset">RESET</span>
+    </div>
+    <div id="game">
+      <script src="scripts/objects.js"></script>
+      <script src="scripts/player.js"></script>
+      <script src="scripts/game.js"></script>
+    </div>
+    <span id="game-over"></span>
+    <span id="died"></span>
+  </body>
+</html>
